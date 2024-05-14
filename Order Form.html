@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Land Of Boxes PVT LTD</title>
+    <style>
+
+body{
+    background-color: #5AF7D3;
+}
+ table{
+    margin: auto;
+    width: 830px;
+    background-color: aqua;
+    
+}
+.table{
+    background-color: #51F6A7;
+}
+.main{
+    background-color: white;
+    margin: auto;
+    width: 830px;
+    height: 1093px;
+    position: relative;
+    padding: 4px;
+    padding-bottom: 1px;
+    border: 2px solid black;
+    box-shadow:5px 1px 10px gray ;
+}
+td b{
+    margin: 34%;
+    margin-top: 1px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.table1{
+    background-color:#4dffdb;
+}
+.table2{
+    background-color: #85e0e0;
+}
+.table3{
+    background-color: #80ffd4;
+}
+.head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px .1px .9px ;
+    background-color: yellow;
+}
+
+td{
+    width: 20px;
+}
+td input{
+    width: 96%;
+}
+textarea:hover,td input:hover{
+    box-shadow: 3px 3px 7px gray;
+    cursor: pointer;
+    border: 1px solid black;
+
+}
+textarea{
+    resize: none;
+    text-transform: capitalize;
+}
+textarea:hover{
+    border: 1.8px solid black;
+    box-shadow: 5px 8px 7px gray;
+    height: 49px;
+}
+fieldset legend{
+    color: white;
+    background-color: burlywood;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-decoration: solid ;
+    text-shadow:1px 1px 1px black;
+    
+}
+textarea::placeholder{
+    text-align: left;
+}
+input{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    height: 17px;
+}
+input[value]{
+text-align: left;
+}
+::placeholder{
+   text-transform: capitalize;
+   text-align: center;
+}
+.box-text{
+    text-align: center;
+}
+.box{
+    border: 2px solid gray;
+    width: 12px;
+    height: 10px;
+    background-color: #4dffdb;
+    position: relative;
+    left: 89%;
+    top: 15px;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: blanchedalmond;
+}
+.box4{
+    background-color: blueviolet;
+}
+.box5{
+    background-color:yellow;
+}
+.Card-Type{
+    width: 27px;
+    box-shadow: none;
+    border: 0px;
+    
+    
+}
+.Card-Type:hover{
+    box-shadow: none;
+    border: 0px;
+}
+fieldset{
+    background-color: bisque;
+}
+#American{
+   
+    width: 10%;
+    display: inline-block;
+    
+}
+.radio_stytling{
+    position: relative;
+    margin-top: 10px;
+}
+button{
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    background-color: aqua;
+    opacity: .8;
+    box-sizing: 100px;
+    width: 100px;
+    height:30px;
+    margin-right: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 4px;
+    font-style: normal;
+    
+}
+button:hover{
+    color: white;
+    background-color: black;
+    border-radius: 9px;
+    opacity: 1;
+    letter-spacing: 2px;
+}
+button:active{
+    color: green;
+}
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend> 
+                <b> Land Of Boxes PVT LTD</b>
+            </legend>
+            <div class="main">
+            <table border="2" cellspacing="5" cellpadding="6">
+                <tr>
+                    <tr>
+                        
+                        <th colspan="4" class="head">
+                            Order Form
+                            </th>
+                        </tr>
+                        <table border="2" cellspacing="3" cellpadding="6" class="table">
+                            
+                            <tr>
+                                <td colspan="4">
+                                    <b>
+                                Purchaser Details 
+</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="name">Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="address">Address:</label>
+                        </td>
+                        <td>
+                            <textarea cols="30px" rows="3px" id="address" name="address" wrap="hard" placeholder="Enter Your Address.." required></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="tel">Phone No:</label>
+                        </td>
+                        <td><input type="tel" id="tel" name="tel" placeholder="Enter Your Phone Number" pattern="[+][0-9]{12}" maxlength="13" value="+91" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="Email">Email:-</label>
+                        </td>
+                        <td>
+                            <input type="email" id="Email" name="Email" placeholder="Enter Your Email" required>
+                        </td>
+                    </tr>
+                </table>
+                <table border="2" cellspacing="3" cellpadding="6" class="table table1" >
+                            
+                    <tr>
+                        <td colspan="4">
+                            <b>
+                        Product Details 
+</b>
+                </td>
+            </tr>
+            <tr>
+                <th>Product Name</th>
+                <th>Price (Rs) </th>
+                <th>Product Number</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Econo"> <div class="box box1"></div> The Econo Box</label>
+                </td>
+                <td class="box-text">5</td>
+                <td class="box-text">1</td>
+                <td>
+                    <input type="number" name="Econo" id="Econo" placeholder="Enter The Quantity" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Standard"><div class="box box2"></div> The Standard Box</label>
+                 </td>
+                <td class="box-text">10</td>
+                <td class="box-text">2</td>
+                <td>
+                <input type="number" name="Standard" id="Standard" placeholder="Enter The Quantity" required>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Premium"><div class="box box3"></div>The Premium Box</label>
+                </td>
+                <td class="box-text">15</td>
+                <td class="box-text">3</td>
+                <td>
+                    <input type="number" name="Premium" id="Premium" placeholder="Enter The Quantity" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Delux"><div class="box box4"></div>The Delux Box</label>
+                </td>
+                <td class="box-text">20</td>
+                <td class="box-text">4</td>
+                <td>
+                    <input type="number" name="Delux" id="Delux" placeholder="Enter The Quantity" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Super Delux"><div class="box box5"></div>The Super Delux Box</label>
+                </td>
+                <td class="box-text">30</td>
+                <td class="box-text">5</td>
+                <td>
+                    <input type="number" name="Super Delux" id="Super Delux" placeholder="Enter The Quantity" required>
+                </td>
+            </tr>
+        </table>
+             
+            </tr>
+            <table border="2" cellspacing="3" cellpadding="6" class="table table2">
+                            
+                <tr>
+                    <td colspan="4">
+                        <b>
+                    Payment Details 
+</b>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="Credit Card">Credit Card Type:</label>
+            </td>
+            <td>
+                <select>
+                    <optgroup label="Select Credit Card Type">
+                    <option>Reward Credit Card</option>
+                    <option>Cashback Credit Card</option>
+                    <option>Shopping Credit Card</option>
+                    <option>Travel Credit Card</option>
+                    <option>Business Credit Card</option>
+                    <option>Balance Transfer Credit Card</option>
+                    <option>Student Credit Card</option>
+                    <option>Fuel Credit Card</option>
+                    <option>Premium Credit Card</option>
+                    <option>Store Credit Card</option>
+                    <option>Co-branded Credit Card</option>
+                    <option>Low-Interest And Charge Card</option>
+                </optgroup>
+                </select>
+                <!-- <div class="Card-Type"> -->
+                <input type="radio" id="Visa" name="Select Credit Card Type" value="Visa" autocomplete="on" class="Card-Type" checked="" style="position: relative; top: 5px;">
+                <label for="Visa" style="position: relative;right: 6px;">Visa</label>
+             
+                <input type="radio" id="Mastercard" name="Select Credit Card Type" value="Mastercard" class="Card-Type" style="position: relative;left: 18px;top: 5px;">
+                <label for="Mastercard" style="position: relative;left: 12px;">Mastercard</label>
+                <div class="radio_stytling">
+                <input type="radio" id="Rupay" name="Select Credit Card Type" value="Rupay"  class="Card-Type">
+                <label for="Rupay" style="position: relative;right: 6px;bottom: 4px;">Rupay</label>
+                
+                <input type="radio" id="American Express" name="Select Credit Card Type" value="American Express" class="Card-Type" style="position: relative;left: 4.8px;">
+                <label for="American Express" id="American">American Express</label>
+                </div>
+            </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="Card Number">Card Number:</label>
+            </td>
+            <td><input type="text" id="Card Number" name="Card Number" placeholder="Enter Your Card Number" required></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="Expiry">Expiry Date:-</label>
+            </td>
+            <td>
+                <input type="month" id="Expiry" name="Expiry" placeholder="Enter Card Expiry Date" value="2022-05" min="2022-05" required>
+            </td>
+        </tr>
+    </table>
+    <table border="2" cellspacing="3" cellpadding="6" class="table table3">
+                            
+        <tr>
+            <td colspan="4">
+                <b>
+        Billing & Delivery Address 
+</b>
+    </td>
+</tr>
+<tr>
+    <td colspan="2">
+        <label for="Billing">Billing Address:</label>
+    </td>
+    <td>
+        <textarea cols="30px" rows="3px" id="Billing" name="Billing" wrap="hard"
+       placeholder="Enter Billing Address.."  required></textarea>
+    </td>
+</tr>
+<tr>
+    <td colspan="2">
+        <label for="Delivery">Delivery Address:</label>
+    </td>
+    <td>
+        <textarea cols="30px" rows="3px" id="Delivery" name="Delivery" wrap="hard"
+       placeholder="Enter Delivery Address.."  required></textarea>
+    </td>
+</tr>
+</table> 
+<table border="2" cellspacing="0" cellpadding="6">
+    <tr>
+        <tr>
+            
+            <th colspan="4">
+                <button type="submit">Submit</button>
+                <button type="reset">Cancel</button>
+                
+            </tr>
+
+                </table>
+            </div>
+            </form>
+        </fieldset>
+</body>
+</html>
