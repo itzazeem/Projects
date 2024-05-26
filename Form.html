@@ -1,0 +1,231 @@
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<center>
+
+    <body bgcolor="lightblue">
+        <table border="3" cellpadding="10" cellspacing="11" bgcolor="#FFFFFF">
+            <colgroup>
+            <col  style="background-color: rgb(23, 172, 231);">
+            <col  style="background-color: rgb(44, 135, 209);">
+            </colgroup>
+            <tr>
+                <tr>
+                    <th colspan="2">
+                        <fieldset>          
+                            <legend> Registration Form</legend>
+                        </fieldset>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>
+                                Enter Your Expertise:-
+                            </strong>
+                            </td>
+                                <td>
+    <form action="Login Form.html" oninput="am.value=parseInt(al.value)">
+
+    <input type="range" id="al" name="al" value="20">
+    <output name="am" for="al"></output>% 
+</td>
+                        </tr>
+                        <tr>
+                <td>
+                    <label for="username"><strong>Enter Username :-</strong>
+                            </strong>
+                        <td><input type="text" name="username" id="username" autofocus>
+                        </td>
+                    </label>
+                </td>
+            <tr>
+
+                <td>
+                <label for="psd"><strong>Enter Password :-</strong>
+                </td>
+                    <td>
+                        <input type="password" name="psd" id="psd" required>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    
+<strong>Enter Pin :-</strong>
+                        </td><td><input type="text" maxlength="6" required>                
+                </td>
+                
+            </tr>
+<tr>
+    <td>
+        <strong>Enter Gender:-</strong>
+    </td>
+    <td>
+
+            <input type="radio" name="gender" id="male" checked>
+        <label for="male">Male
+        </label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female
+        </label>
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="number">
+            <strong>Enter Phone Number:-</strong>
+
+        </td>
+        <td>
+
+            <input type="tel" name="number" id="number">
+        </label>
+    </td>
+</tr>
+<tr>    
+    <td>
+
+        <label for="birth">
+            <strong> Enter Date Of Birth:-</strong>
+    </td>
+<td>
+<input type="date" id="birth" name="birth" value="2001-01-31" min="2000-01-01" max="2005-12-30">
+</label>
+</td>
+</tr>
+<tr>
+    <td>
+        <label for="age">
+            <strong>
+                Enter Yeras Of Experience:-
+            </strong>
+            <td>
+<input type="number" min="1" max="15" value="2">
+            </label>
+        </td>   
+    </td>
+</tr>
+<tr>
+    <td>
+<label for="website">
+    <strong>
+        Enter Your Website:-
+    </strong>
+    <td>
+        <input type="url" name="website" id="website">
+    </td>
+</label>
+    </td>
+  <tr>
+    <td>
+        <label for="careers">
+            <strong>
+
+                Enter Your Field :-
+            </st    rong>
+            <td>
+                <input list="career" name="career" id="careers">
+                <datalist id="career">
+                    <option value="Web-Developer"></option>
+                    <option value="Graphic-Designer"></option>
+                    <option value="Digital-Marketing"></option>
+                </datalist>
+            </td>
+        </label>
+    </td>
+</tr>
+<tr>
+        <td>
+            <label for="level">
+                <strong>
+                    Enter Your Level :-
+                </strong>
+                <td>
+                    <select id="level" name="level">
+                            <option>Beginner</option>
+                        <option>Mediator</option>
+                        <option>Advanced</option>
+                    </select>
+                </td>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="hobbies">
+                <strong>
+                    Enter Your Hobbies :-
+                </strong>
+          <td>
+            <input type="checkbox" id="hobbies" name="hobby" value="Reading">Reading
+            <input type="checkbox" id="hobbies" name="hobby" value="Writing">Writing
+          </td>
+            </label>
+        </td>
+    </tr>   
+    <td>
+        
+        <label for="email">
+            <strong>
+                Enter Email Id:-
+            </strong>
+    </td>
+<td>
+    <input type="email" name="email" id="email">
+</td>
+    </label>
+</tr>
+
+         
+       
+    
+<tr>
+    <td>
+        <label for="file"> 
+                <strong>
+
+                Atach Your Resume :-
+            </strong>
+            <td>
+                <input type="file" id="file" name="file">
+            </td>
+        </label>
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="describe">
+            <strong>
+                Describe Yourself:-
+            </strong>
+            <td>
+                <textarea id="describe" rows="4" cols="35"></textarea>
+            </td>
+        </label>
+    </td>   
+</tr>
+            <tr>
+
+                <td colspan="2">
+
+<center>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Cancel">
+                </center>    
+</td>
+            </tr>
+            </tr>
+            </form>
+            </th>
+            </tr>
+        </table>
+</center>
+</body>
+</html>                 
