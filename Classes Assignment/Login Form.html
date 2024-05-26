@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-COMPATIBLE" content="ie=edge">
+    <title>Login Form</title>
+    <style>
+        legend{
+            background-color: #FCD6D6;
+            color: black;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-style: italic;
+            font-weight: bold;
+        }
+        fieldset{
+              background-color:#FDE4E4 ;
+        }
+    </style>
+</head>
+<body bgcolor="#E6B4B4">
+    <center>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Login Form</legend>
+            <table border="2" cellpadding="10" cellspacing="10">
+                <colgroup>
+                <col span="2" style="background-color: rgb(255, 192, 203,.4 );">
+                </colgroup>
+                <tr>
+                    <td>
+                        <label for="username">Enter Username:</label>
+                    </td>
+                        <td>
+                            <input type="text" id="username" name="username" required>
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Enter Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password" name="password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Cancel</button>
+                    </center>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <marquee direction="right" bgcolor="#F5CACA"><i>Enter Correct Details To Go Ahead</i></marquee>
+    </form>
+</center>
+</body>
+</html>

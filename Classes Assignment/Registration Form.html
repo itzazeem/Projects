@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body bgcolor="lightgreen">
+    <center>
+    <form action="#" method="post">
+        <table border="2" cellpadding="13" cellspacing="10"  bgcolor="#ffffff" style="width: 60%;">
+            <tr>          
+                <th colspan="7"> Registration Form</th>
+            </tr>
+            <colgroup>
+            <col span="2" style="background-color: aquamarine;">
+            </colgroup>
+            <tr>
+            <td>
+                <label for="firstname"> Student Name</td></label>
+            <td>
+                <input type="text" name="firstname" id="firstname" placeholder="Enter Your Name" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="middlename"> Father's Name</td></label>
+            <td> 
+                <input type="text" name="middlename" id="middlename" required placeholder="Enter Father's Name" required>
+            </td>     
+        </tr>
+        <tr>
+            <td>
+                <label for="mothername"> Mother's Name</td></label>
+            <td> 
+                <input type="text" name="mothername" id="mothername" required placeholder="Enter Mother's Name" required>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="gender">Gender</label>
+            </td>
+            <td>
+                <input type="radio" id="gender" name="gender" checked>Male
+                <input type="radio" id="gender" name="gender">Female
+            </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="Email">Email</label>
+            </td>
+            <td>
+                <input type="email" id="Email" name="Email" placeholder="Email@gmail.com" required>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mobile">Mobile No.</label>
+                </td>
+                <td>
+                    <input type="tel" id="mobile" name="mobile" placeholder="Mobile No" value="+91" maxlength="13"
+                    pattern="[+][0-9]{12}" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea id="address" name="address" placeholder="Enter Your Address" cols="25px" rows="4px" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="state">State</label>
+                </td>
+                <td>
+                    <input list="states" id="state" name="state">
+                <datalist id="states">
+                    <option value="Arunachal Pradesh"></option>
+                    <option value=""></option>
+                    <option value="Andhra Pradesh"></option>
+                    <option value="Assam"></option>
+                    <option value="Bihar"></option>
+                    <option value="Chhattisgarh"></option>
+                    <option value="Goa"></option> 
+                    <option value="Gujarat"></option>
+                    <option value="Haryana"></option>
+                    <option value="Himachal Pradesh"></option>
+                    <option value="Jharkhand"></option>
+                    <option value="Karnataka"></option>
+                    <option value="Kerala"></option>
+                    <option value="Madhya Pradesh"></option>
+                    <option value="Maharashtra"></option>
+                    <option value="Manipur"></option>
+                    <option value="Meghalaya"></option>
+                    <option value="Meghalaya"></option>
+                    <option value="Nagaland"></option>
+                    <option value="Odisha"></option>
+                    <option value="Punjab"></option>
+                    <option value="Rajasthan"></option>
+                    <option value="Sikkim"></option>
+                    <option value="Tamil Nadu"></option>
+                    <option value="Telangana"></option>
+                    <option value="Tripura"></option>
+                    <option value="Uttar Pradesh"></option>
+                    <option value="Uttarakhand"></option>
+                    <option value="West Bengal"></option>
+                    <option value="Andaman and Nicobar Island"></option>
+                    <option value="Chandigarh"></option>
+                    <option value="Dadra and Nagar Haveli and Daman and Diu"></option>
+                    <option value="Delhi"></option>
+                    <option value="Ladakh"></option>
+                    <option value="Lakshadweep"></option>
+                    <option value="Jammu and Kashmir"></option>
+                    <option value="Puducherry"></option>
+                </datalist>    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City</label>
+                </td>
+                <td>
+                    <input type="text" id="city" name="city" placeholder="Enter City" required> 
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                <button type="submit">Submit</button>
+            </td>
+            </tr>
+        </legend>
+        </table>
+    </form>
+</center>
+</body>
+</html>

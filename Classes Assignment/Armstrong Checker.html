@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Armstrong Number</title>
+    <script>
+        n=parseInt(prompt('Enter 4 Digit To Check ARM Strong Or Not'))
+        const b= n;
+        sum=0;
+       
+        while(n>0){
+            rem = n % 10;
+            sum= sum+(rem*rem*rem*rem);
+          
+            n = Math.floor(n/10);
+}
+if (sum==b){
+    document.write("It Is A ARM Strong")
+    
+}else{
+    document.write("It Is Not A ARM Strong")
+   
+}
+// document.write("It Is Not A ARM Strong")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
